@@ -5,7 +5,7 @@ import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import { useRouter } from "next/navigation";
 
-const CreateAccount = () => {
+export default function CreateAccount() {
   const navigate = useRouter();
   const [formData, setFormData] = useState({
     name: "",
@@ -143,6 +143,4 @@ const CreateAccount = () => {
       </div>
     </>
   );
-};
-
-export default CreateAccount;
+}

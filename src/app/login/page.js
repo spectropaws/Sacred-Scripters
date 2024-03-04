@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-export const Login = () => {
+export default function Login() {
     const navigate = useRouter();
     const [formData, setFormData] = useState({
         email: "",
