@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import SkewButton from "./SkewButton";
+import SkewButton from "@/app/components/SkewButton";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import { useRouter } from "next/navigation";
