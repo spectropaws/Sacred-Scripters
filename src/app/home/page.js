@@ -1,5 +1,10 @@
+import SideBar from "../components/SideBar";
+
 export default function Home() {
-    return (<>
-        <h1>Dashboard Page</h1>
-    </>);
+    return (
+        <div className="flex">
+            <SideBar />
+            <h1>Lol</h1>
+        </div>
+    );
 }

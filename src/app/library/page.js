@@ -1,5 +1,11 @@
+import SideBar from "../components/SideBar";
+import GameForm from "./GameForm";
+
 export default function MyGames() {
     return (
-        <h1>My Games page</h1>
+        <div className="flex">
+            <SideBar />
+            <GameForm />
+        </div>
     );
 }
