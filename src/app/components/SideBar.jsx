@@ -17,12 +17,12 @@ export default function SideBar() {
   const sideBarMenu = [
     {
       name: "HOME",
-      path: "/LayoutTest",
+      path: "/home",
       icon: <HomeIcon size={24} strokeWidth={1} />,
     },
     {
       name: "MY GAMES",
-      path: "/LayoutTest",
+      path: "/library",
       icon: <Heart size={24} strokeWidth={1} />,
     },
     {
@@ -62,7 +62,9 @@ export default function SideBar() {
               className="my-auto h-10 w-10 m-2"
               alt="logo"
             />
-            <p className="my-auto text-lg text-[#885fff] font-semibold">GAMERLY</p>
+            <p className="my-auto text-lg text-[#885fff] font-semibold">
+              GAMERLY
+            </p>
             <p
               className="my-auto text-lg ms-36 cursor-pointer"
               onClick={collapse}
@@ -84,7 +86,7 @@ export default function SideBar() {
         </div>
         <div className="mx-auto my-10 flex flex-col text-white">
           {sideBarMenu.map((item, idx) => (
-            <Link 
+            <Link
               href={item.path}
               onClick={() => handleOnClick(idx)}
               key={idx}
