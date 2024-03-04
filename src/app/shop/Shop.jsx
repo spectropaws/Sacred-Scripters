@@ -57,7 +57,7 @@ export default function Shop() {
         </div>
 
         <div className="w-1/3">
-          <h2 className="text-[#ffff] m-3 font-semibold">RECENTLY PLAYED</h2>
+          <h2 className="text-[#ffff] m-3 font-semibold">PURCHASE TOKENS</h2>
           <div className="h-[45vh] rounded-[15px] ">
             <div className="w-auto h-[250px]">{tokenObj.map(CreateTokens)}</div>
           </div>

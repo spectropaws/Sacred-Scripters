@@ -17,12 +17,12 @@ export default function SideBar() {
   const sideBarMenu = [
     {
       name: "HOME",
-      path: "/LayoutTest",
+      path: "/home",
       icon: <HomeIcon size={24} strokeWidth={1} />,
     },
     {
       name: "MY GAMES",
-      path: "/LayoutTest",
+      path: "/library",
       icon: <Heart size={24} strokeWidth={1} />,
     },
     {
