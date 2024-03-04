@@ -3,6 +3,7 @@ import Tokens from "./Tokens.jsx";
 import Cards from "./Cards.jsx";
 import gameData from "./PopularGameData.js";
 import tokenObj from "./tokenObj.js";
+import SkewButton from "../components/SkewButton.jsx";
 
 function CreateTokens(tokenObj) {
   return (
@@ -22,7 +23,6 @@ function CreatePopular(gameData) {
       icon={gameData.icon}
       genre={gameData.genre}
       gameName={gameData.gameName}
-      description={gameData.description}
     />
   );
 }
@@ -42,9 +42,9 @@ export default function Shop() {
           />
         </div>
         {/*Add Button Component*/}
-        <button className="justify-self-end text-white my-8 mx-14">
+        <SkewButton className="flex justify-center items-center justify-self-end text-white my-8 mx-14 w-32 h-10">
           Shop
-        </button>{" "}
+        </SkewButton>{" "}
         {/*Add Button Component*/}
       </div>
 
@@ -57,7 +57,7 @@ export default function Shop() {
         </div>
 
         <div className="w-1/3">
-          <h2 className="text-[#ffff] m-3 font-semibold">PURCHASE TOKENS</h2>
+          <h2 className="text-[#ffff] m-3 font-semibold">RECENTLY PLAYED</h2>
           <div className="h-[45vh] rounded-[15px] ">
             <div className="w-auto h-[250px]">{tokenObj.map(CreateTokens)}</div>
           </div>
