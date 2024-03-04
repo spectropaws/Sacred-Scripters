@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { React } from "react";
 import SkewButton from "./SkewButton";
+import logo from "@/../../public/images/logo.png"
 
 const Navbar = () => {
   return (
-    <nav className=" h-24 flex justify-between text-white font-bold">
+    <nav className="bg-violet-950 h-24 flex justify-between text-white font-bold">
       <div className="flex ml-10 content-center">
-        <img className="w-14 my-auto h-14 content-center" src="/images/logo.png" alt="Gamerly" />
-        <h3 className="m-auto text-2xl ms-5">
+        <img className="w-14 my-auto h-14 content-center" src="logo.png" alt="Gamerly" />
+        <h3 className="m-auto">
           <Link href="#">GAMERLY</Link>
         </h3>
       </div>
