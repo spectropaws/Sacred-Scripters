@@ -7,55 +7,55 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const row1 = [
-  "/Assets/scroll1.jpg",
-  "/Assets/scroll2.jpg",
-  "/Assets/scroll3.jpg",
-  "/Assets/scroll4.jpg",
-  "/Assets/scroll5.jpg",
-  "/Assets/scroll6.jpg",
-  "/Assets/scroll1.jpg",
-  "/Assets/scroll2.jpg",
-  "/Assets/scroll3.jpg",
-  "/Assets/scroll4.jpg",
-  "/Assets/scroll5.jpg",
-  "/Assets/scroll6.jpg",
-  "/Assets/scroll1.jpg",
-  "/Assets/scroll2.jpg",
-  "/Assets/scroll3.jpg",
+  "/images/landing/poster-1.jpg",
+  "/images/landing/poster-2.jpg",
+  "/images/landing/poster-3.jpg",
+  "/images/landing/poster-4.jpg",
+  "/images/landing/poster-5.jpg",
+  "/images/landing/poster-6.jpg",
+  "/images/landing/poster-7.jpg",
+  "/images/landing/poster-8.jpg",
+  "/images/landing/poster-9.jpg",
+  "/images/landing/poster-10.jpg",
+  "/images/landing/poster-1.jpg",
+  "/images/landing/poster-2.jpg",
+  "/images/landing/poster-3.jpg",
+  "/images/landing/poster-4.jpg",
+  "/images/landing/poster-5.jpg",
 ];
 const row2 = [
-  "/Assets/scroll7.jpg",
-  "/Assets/scroll8.jpg",
-  "/Assets/scroll9.jpg",
-  "/Assets/scroll10.jpg",
-  "/Assets/scroll11.jpg",
-  "/Assets/scroll12.jpg",
-  "/Assets/scroll13.jpg",
-  "/Assets/scroll7.jpg",
-  "/Assets/scroll8.jpg",
-  "/Assets/scroll9.jpg",
-  "/Assets/scroll10.jpg",
-  "/Assets/scroll11.jpg",
-  "/Assets/scroll12.jpg",
-  "/Assets/scroll13.jpg",
-  "/Assets/scroll7.jpg",
+  "/images/landing/poster-11.jpg",
+  "/images/landing/poster-12.jpg",
+  "/images/landing/poster-13.jpg",
+  "/images/landing/poster-14.jpg",
+  "/images/landing/poster-15.jpg",
+  "/images/landing/poster-16.jpg",
+  "/images/landing/poster-17.jpg",
+  "/images/landing/poster-18.jpg",
+  "/images/landing/poster-19.jpg",
+  "/images/landing/poster-20.jpg",
+  "/images/landing/poster-11.jpg",
+  "/images/landing/poster-12.jpg",
+  "/images/landing/poster-13.jpg",
+  "/images/landing/poster-14.jpg",
+  "/images/landing/poster-15.jpg",
 ];
 const row3 = [
-  "/Assets/scroll14.jpg",
-  "/Assets/scroll15.jpg",
-  "/Assets/scroll16.jpg",
-  "/Assets/scroll17.jpg",
-  "/Assets/scroll18.jpg",
-  "/Assets/scroll19.jpg",
-  "/Assets/scroll14.jpg",
-  "/Assets/scroll15.jpg",
-  "/Assets/scroll16.jpg",
-  "/Assets/scroll17.jpg",
-  "/Assets/scroll18.jpg",
-  "/Assets/scroll19.jpg",
-  "/Assets/scroll14.jpg",
-  "/Assets/scroll15.jpg",
-  "/Assets/scroll16.jpg",
+  "/images/landing/poster-21.jpg",
+  "/images/landing/poster-22.jpg",
+  "/images/landing/poster-23.jpg",
+  "/images/landing/poster-24.jpg",
+  "/images/landing/poster-25.jpg",
+  "/images/landing/poster-26.jpg",
+  "/images/landing/poster-27.jpg",
+  "/images/landing/poster-28.jpg",
+  "/images/landing/poster-29.jpg",
+  "/images/landing/poster-30.jpg",
+  "/images/landing/poster-21.jpg",
+  "/images/landing/poster-22.jpg",
+  "/images/landing/poster-23.jpg",
+  "/images/landing/poster-24.jpg",
+  "/images/landing/poster-25.jpg",
 ];
 
 const Slider = () => {
@@ -123,14 +123,14 @@ const Slider = () => {
             </div>
             <div className="flex flex-col h-[60%] justify-center align-middle absolute w-[80%] top-[20%] left-[10%]">
               <div className=" flex flex-col my-auto mx-auto p-10 text-center">
-                <p className=" text-5xl font-semibold leading-tight">
+                <p className=" text-white text-5xl font-semibold leading-tight">
                   GATHER YOUR <span className=" text-purple-800">GEARS</span>{" "}
                   AND BUCKLE YOUR SEAT TO GET{" "}
                   <span className=" text-purple-800">
                     STORMING EXPERIENCE!!
                   </span>
                 </p>
-                <p className="px-[20%] mt-3 text-center leading-5 font-medium text-lg">
+                <p className=" text-white px-[20%] mt-3 text-center leading-5 font-medium text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptas at vel eaque temporibus dicta perferendis
                   repellendus, corrupti vero maxime quam minima laudantium
