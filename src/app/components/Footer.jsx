@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "#/images/logo.png";
+import logolast from "#/images/footer_last_no_bg.png";
+
 
 function Footer() {
   const containerVariants = {
@@ -114,7 +116,7 @@ function Footer() {
       <div className="bg-[#885fff] w-full h-[60px] flex justify-center relative">
         <Image
           className="h-[100px] w-[100px] text-center top-[-85%] absolute"
-          src={logo}
+          src={logolast}
           alt="game icon"
         />
       </div>
