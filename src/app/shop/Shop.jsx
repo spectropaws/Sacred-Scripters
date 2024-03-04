@@ -29,7 +29,7 @@ function CreatePopular(gameData) {
 
 export default function Shop() {
   return (
-    <div className="bg-[#110B32] w-[80vw]">
+    <div className="bg-[#110B32] w-[76vw]">
       <div className="flex justify-between">
         <div className="flex w-[55%] my-8 mx-14">
           <h3 className="p-2 px-8 bg-[#150050] text-[#ffffff] text-center rounded-[35px]">
