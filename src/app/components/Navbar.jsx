@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="my-auto">
         <ul className="flex justify-center">
           <li className="ml-11">
-            <Link href="/">HOME</Link>
+            <Link href="/home">HOME</Link>
           </li>
           <li className="ml-11">
             <Link href="#collecttokens">FEATURE</Link>
