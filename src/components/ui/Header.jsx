@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import "@/components/Slider.css"
+import "@/components/Header.css"
 import { InView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
