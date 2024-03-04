@@ -1,5 +1,3 @@
-import SkewButton from "./SkewButton";
-
 function Tokens(props) {
   return (
     <div className="p-4 w-[90%] h-auto bg-[#150050] rounded-2xl mb-3 shadow-lg shadow-black">

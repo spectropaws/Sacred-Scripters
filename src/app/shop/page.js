@@ -1,8 +1,8 @@
 import React from "react";
 import Tokens from "./Tokens.jsx";
-import Cards from "./Card.jsx";
-// import gameData from "./PopularGameData.js";
-// import tokenObj from "./tokenObj.js";
+import Cards from "./Cards.jsx";
+import gameData from "./PopularGameData.js";
+import tokenObj from "./tokenObj.js";
 
 function CreateTokens(tokenObj) {
   return (
@@ -28,8 +28,8 @@ function CreatePopular(gameData) {
 }
 
 export default function Shop() {
-    return (
-        <>
+  return (
+    <>
       <div className="bg-[#110B32]">
         <div className="flex justify-between">
           <div className="flex w-[55%] my-8 mx-14">
@@ -75,5 +75,5 @@ export default function Shop() {
         </div>
       </div>
     </>
-    );
+  );
 }
