@@ -27,14 +27,14 @@ export default function CreateAccount() {
     console.log(formData);
     try {
       var response = await axios.post(
-        "http://localhost:8080/user/signUp",
+        "http://localhost:5000/user/signUp",
         formData
       );
       console.log("response");
       if (response.status === 200) {
         await toast.success(response.data.message);
         setTimeout(() => {
-          navigate.push("/LayoutTest");
+          navigate.push("/home");
         }, 1500);
       } else {
         toast.error(response.data.message);
