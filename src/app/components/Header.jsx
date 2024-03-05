@@ -131,10 +131,11 @@ const Slider = () => {
                   </span>
                 </p>
                 <p className=" text-white px-[20%] mt-3 text-center leading-5 font-medium text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptas at vel eaque temporibus dicta perferendis
-                  repellendus, corrupti vero maxime quam minima laudantium
-                  voluptatum totam ex optio porro libero suscipit
+                  Dive into a universe where gaming, live streaming, and game
+                  creation collide. Our platform is your gateway to
+                  adrenaline-pumping battles, epic quests, and heart-pounding
+                  live streams. Whether you’re a player, a creator, or both,
+                  unleash your inner hero and conquer new realms.
                 </p>
               </div>
             </div>

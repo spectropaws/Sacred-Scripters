@@ -36,17 +36,17 @@ function Footer() {
                   width={200}
                   height={200}
                 />
-                <h3 className="text-[#885fff] text-center">GAMERLY</h3>
-                <p className="text-white text-center">Some Random Text</p>
+                <h3 className="text-[#885fff] text-center font-semibold text-2xl">GAMERLY</h3>
+                {/* <p className="text-white text-center">Play Now!!</p> */}
               </div>
               <div className="self-center w-80 m-10 text-center text-white">
-                <h2 className="font-bold">Connect with us Now!</h2>
+                <h2 className="font-bold text-xl">Connect with us Now!</h2>
                 <ul className="flex items-center justify-between">
                   <li>
                     <button>
                       <Image
-                        src="/images/img1.jpg"
-                        className="h-12 w-12 m-3"
+                        src="/images/insta.png"
+                        className="h-12 w-12 m-3 rounded-full"
                         alt="Instagram"
                         width={200}
                         height={200}
@@ -56,7 +56,7 @@ function Footer() {
                   <li>
                     <button>
                       <Image
-                        src="/images/img1.jpg"
+                        src="/images/discord.png"
                         className="h-12 w-12 m-3"
                         alt="X"
                         width={200}
@@ -68,7 +68,7 @@ function Footer() {
                     <button>
                       {" "}
                       <Image
-                        src="/images/img1.jpg"
+                        src="/images/x.png"
                         className="h-12 w-12 m-3"
                         alt="Youtube"
                         width={200}
@@ -80,7 +80,7 @@ function Footer() {
                     <button>
                       {" "}
                       <Image
-                        src="/images/img1.jpg"
+                        src="/images/youtube.png"
                         className="h-12 w-12 m-3"
                         alt="Pinterest"
                         width={200}
@@ -90,22 +90,21 @@ function Footer() {
                   </li>
                 </ul>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus, quidem! Culpa cumque dolores similique minus.
+                  Connect with us via Email for inquiries and collaborations, Join our Discord Community for Discussions and Events, and Follow us on Social media for Updates and Highlights !!!
                 </p>
               </div>
               <div className={`${styles.sub_headings} w-44 h-44`}>
-                <h4>SUB-HEADING</h4>
+                <h4 className="font-semibold text-xl">CONTACT US</h4>
                 <ul className={styles.links}>
                   <li className={styles.list}>
-                    <Link href="#">FOO-LINK 1</Link>
+                    <Link href="#">gamerly@support.com</Link>
                   </li>
                   <li className={styles.list}>
-                    <Link href="#">FOO-LINK 2</Link>
+                    <Link href="#">+91 9988952748</Link>
                   </li>
-                  <li className={styles.list}>
-                    <Link href="#">FOO-LINK 3</Link>
-                  </li>
+                  {/* <li className={styles.list}>
+                    <Link href="#">FOO-LINK 3</Link> 
+                  </li> */}
                 </ul>
               </div>
             </motion.div>

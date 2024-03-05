@@ -67,7 +67,7 @@ function Carousel() {
           <div className="swiper-button-next slider-arrow">
             <IonIcon icon={arrowForwardOutline}></IonIcon>
           </div>
-          <div className="swiper-pagination"></div>
+          {/* <div className="swiper-pagination"></div> */}
         </div>
       </Swiper>
     </div>

@@ -33,11 +33,11 @@ const CollectTokens = () => {
                 <span className=" text-purple-800 ">SHOP</span>
               </p>
               <p className="leading-5 text-lg font-medium mt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas at vel eaque temporibus dicta perferendis repellendus,
-                corrupti vero maxime quam minima laudantium voluptatum totam ex
-                optio porro libero suscipit Lorem ipsum dolor sit amet
-                consectetur adipisicing elit.{" "}
+                Gamerly Tokens are unique digital assets created for gaming.
+                These tokens can be traded, purchased, and used within games.
+                They represent various in-game elements, such as characters,
+                items, and virtual currency. Tokenization enhances gameplay by
+                fostering player engagement and attachment.{" "}
               </p>
               <SkewButton className="w-56 mt-8 ms-2">COLLECT TOKENS</SkewButton>
             </div>

@@ -18,33 +18,33 @@ const TopFiveGames = () => {
 
     const topFiveGames = [
         {
-            heading: "demo game-1",
+            heading: "BULLET FORCE ",
             imageURL: '/images/landing/poster-2.jpg',
-            description: "game-1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at vel eaque temporibus dicta perferendis repellendus, corrupti vero maxime quam minima laudantium voluptatum totam ex optio porro libero suscipit",
+            description: "Experience intense multiplayer FPS action with customizable weapons, dynamic maps, and thrilling gameplay. Join the battle, dominate the competition, and become the ultimate soldier in this adrenaline-fueled shooter.",
             rating: 4,
         },
         {
-            heading: "demo game-2",
+            heading: "INFINITE BATTLE",
             imageURL: '/images/landing/poster-3.jpg',
-            description: "game-2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at vel eaque temporibus dicta perferendis repellendus, corrupti vero maxime quam minima laudantium voluptatum totam ex optio porro libero suscipit",
+            description: "Immerse yourself in a futuristic world of epic battles and strategic warfare. Command powerful armies, conquer new territories, and unleash advanced technologies to dominate your opponents. With immersive graphics and dynamic gameplay, prepare for an unforgettable gaming experience in the ultimate battle for supremacy.",
             rating: 5,
         },
         {
-            heading: "demo game-3",
+            heading: "ARCADE RACING",
             imageURL: '/images/landing/poster-4.jpg',
-            description: "game-3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at vel eaque temporibus dicta perferendis repellendus, corrupti vero maxime quam minima laudantium voluptatum totam ex optio porro libero suscipit",
-            rating: 5,
+            description: "Arcade racing games are all about fast-paced action, emphasizing speed, agility, and pure fun. Unlike realistic racing simulators, these games prioritize excitement and thrilling gameplay.",
+            rating: 3,
         },
         {
-            heading: "demo game-4",
+            heading: "TURN MY WHEEL",
             imageURL: '/images/landing/poster-5.jpg',
-            description: "game-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at vel eaque temporibus dicta perferendis repellendus, corrupti vero maxime quam minima laudantium voluptatum totam ex optio porro libero suscipit",
+            description: "Embark on an addictive journey of precision and timing as you navigate through challenging obstacles. Test your reflexes and skills as you twist and turn your way to victory. With captivating visuals and addictive gameplay, Turn My Wheel offers a thrilling experience that will keep you coming back for more.",
             rating: 4,
         },
         {
-            heading: "demo game-5",
+            heading: "VENGE IO",
             imageURL: '/images/landing/poster-6.jpg',
-            description: "game-5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at vel eaque temporibus dicta perferendis repellendus, corrupti vero maxime quam minima laudantium voluptatum totam ex optio porro libero suscipit",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at vel eaque temporibus dicta perferendis repellendus, corrupti vero maxime quam minima laudantium voluptatum totam ex optio porro libero suscipit",
             rating: 5,
         },
     ]
