@@ -1,33 +1,48 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Tokens from "./Tokens.jsx";
 import Cards from "./Cards.jsx";
-import gameData from "./PopularGameData.js";
-import tokenObj from "./tokenObj.js";
 import SkewButton from "../components/SkewButton.jsx";
-
-function CreateTokens(tokenObj) {
-  return (
-    <Tokens
-      key={tokenObj.id}
-      gameName={tokenObj.gameName}
-      tokens={tokenObj.tokens}
-      price={tokenObj.price}
-    />
-  );
-}
-
-function CreatePopular(gameData) {
-  return (
-    <Cards
-      key={gameData.id}
-      icon={gameData.icon}
-      genre={gameData.genre}
-      gameName={gameData.gameName}
-    />
-  );
-}
+import axios from "axios";
+import tokenObj from "./tokenObj.js";
 
 export default function Shop() {
+  const [games, setGames] = useState([]);
+
+  useEffect(() => {
+    async function fetchGames() {
+      try {
+        const response = await axios.get('http://localhost:5000/games'); // Adjust the URL as needed
+        setGames(response.data);
+      } catch (error) {
+        console.error('Error fetching games:', error);
+      }
+    }
+
+    fetchGames();
+  }, []);
+
+  function CreateTokens(tokenObj) {
+    return (
+      <Tokens
+        key={tokenObj.id}
+        gameName={tokenObj.gameName}
+        tokens={tokenObj.tokens}
+        price={tokenObj.price}
+      />
+    );
+  }
+
+  function CreatePopular(game) {
+    return (
+      <Cards
+        key={game.id}
+        icon={game.icon}
+        genre={game.genre}
+        gameName={game.gameName}
+      />
+    );
+  }
+
   return (
     <div className="bg-[#110B32] w-[76vw]">
       <div className="flex justify-between">
@@ -59,7 +74,10 @@ export default function Shop() {
         <div className="w-1/3">
           <h2 className="text-[#ffff] m-3 font-semibold">RECENTLY PLAYED</h2>
           <div className="h-[45vh] rounded-[15px] ">
-            <div className="w-auto h-[250px]">{tokenObj.map(CreateTokens)}</div>
+            <div className="w-auto h-[250px]">
+              {tokenObj.map(CreateTokens)}
+              {/* Map over tokens here if needed */}
+            </div>
           </div>
         </div>
       </div>
@@ -67,7 +85,7 @@ export default function Shop() {
       <div className="ml-14 mr-8">
         <h3 className="text-white my-8 font-semibold">FAMOUS GAMES</h3>
         <div className="flex overflow-x-scroll no-scrollbar h-[300px]">
-          {gameData.map(CreatePopular)}
+          {games.map(CreatePopular)}
         </div>
       </div>
     </div>
